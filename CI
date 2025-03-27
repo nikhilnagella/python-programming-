@@ -1,7 +1,0 @@
- p=int(input("enter the principal :"))
-r=int(input("enter the rate :"))
-t=int(input("enter the time :"))
-a=(p*(1+r/100)**t)
-CI = a-p
-print(CI)
-print(round(CI,2))
